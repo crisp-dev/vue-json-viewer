@@ -13,7 +13,7 @@
     "example": "./example"
   },
   "scripts": {
-    "build": "npm run build:browser && npm run build:ssr",
+    "_build": "npm run build:browser && npm run build:ssr",
     "build:browser": "webpack --config ./build/webpack.config.js",
     "build:ssr": "webpack --config ./build/webpack.ssr.config.js",
     "example": "webpack-dev-server --config ./example/build/webpack.dev.conf.js"
